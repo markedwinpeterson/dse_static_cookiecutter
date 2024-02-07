@@ -1,0 +1,2 @@
+#FORMAT: BEACON
+#NAME:Mark Edwin Peterson Static Cookiecutter
