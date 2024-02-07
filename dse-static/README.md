@@ -1,4 +1,4 @@
-# Mark Edwin Peterson Attempt
+# Mark Edwin Peterson Static Cookiecutter
 
 
 

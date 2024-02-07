@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet 
+    xmlns="http://www.w3.org/1999/xhtml" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:local="http://dse-static.foo.bar"
     version="2.0" exclude-result-prefixes="xsl tei xs local">
     
-    <xsl:output encoding="UTF-8" media-type="text/html" method="html" version="5.0" indent="yes" omit-xml-declaration="yes"/>
+    <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     
     
     <xsl:import href="./partials/shared.xsl"/>
@@ -35,7 +36,8 @@
     <xsl:template match="/">
 
     
-        <html class="h-100">
+        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
+        <html xmlns="http://www.w3.org/1999/xhtml" class="h-100">
     
             <head>
                 <xsl:call-template name="html_head">
@@ -93,7 +95,9 @@
                             </div>
                         </div>
                         
+                        <div data-index="true">
                             <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
+                        </div>
                         
 
                         <p style="text-align:center;">

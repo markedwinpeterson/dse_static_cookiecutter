@@ -5,7 +5,7 @@
       <acdh:DefaultLang>de</acdh:DefaultLang>
    </acdh:Constanst>
    <acdh:TopCollection rdf:about="https://id.acdh.oeaw.ac.at/dse-static">
-      <acdh:hasTitle xml:lang="de">Mark Edwin Peterson Attempt</acdh:hasTitle>
+      <acdh:hasTitle xml:lang="de">Mark Edwin Peterson Static Cookiecutter</acdh:hasTitle>
       <acdh:hasDescription xml:lang="de">Projektbeschreibung</acdh:hasDescription>
       <acdh:hasContact rdf:resource="xxx"/>
       <acdh:hasMetadataCreator rdf:resource="xxx"/>
