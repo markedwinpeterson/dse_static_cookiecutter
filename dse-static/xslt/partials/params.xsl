@@ -10,5 +10,5 @@
     <xsl:param name="html_title">DSE Static-Site</xsl:param>
     <xsl:param name="project_logo">images/logo.png</xsl:param>
     <xsl:param name="base_url">https://markedwinpeterson.github.io/dse_static_cookiecutter/dse-static</xsl:param>
-    <xsl:param name="data_repo">https://github.com/markedwinpeterson/dse-static-data</xsl:param>
+#    <xsl:param name="data_repo">https://github.com/markedwinpeterson/dse-static-data</xsl:param>
 </xsl:stylesheet>
